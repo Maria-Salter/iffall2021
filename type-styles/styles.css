@@ -1,0 +1,28 @@
+p {
+    font-weight: 900;
+    font-size: 15pt;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    letter-spacing: 5pc;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 20pt;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 15pt;
+}
+aside {
+    text-align: end;
+    font-size: 20pt;
+    color: rgb(194, 194, 194);
+}
