@@ -1,0 +1,118 @@
+body {
+    background-color: cadetblue;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+#headerimage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header {
+    background-color: rgba(0, 0, 20, 0.4);
+    padding-bottom: 10px;
+    color: white;
+}
+
+h1 {
+    margin-left: 5%;
+    font-size: 50px;
+}
+
+aside {
+    font-size: 25px;
+    max-width: 30%;
+    text-align: right;
+    float: right;
+    padding: 40px;
+}
+
+.instructgrid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 4fr 2fr;
+    column-gap: 25px;
+    padding: 0 25px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+
+h2 {
+    background: white;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+p {
+    margin: auto;
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    background-clip: padding-box;
+    }
+
+.ingredients {
+    margin-top: 25px;
+}
+
+.directions {
+    margin-top: 25px;
+}
+
+.images img {
+    width: 90%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.images {
+    background-color: rgba(0, 0, 20, 0.4);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.images li {
+    display: block;
+}
+
+footer {
+    background-color: rgba(0, 0, 20, 0.4);
+    padding: 10px;
+    bottom: 0;
+}
+
+@media (max-width: 950px) {
+    .instructgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 50%)
+    }
+
+    aside {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .instructgrid {
+        display: block;
+    }
+
+    .images {
+        display: block;
+    }
+
+    .images img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
