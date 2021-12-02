@@ -1,0 +1,213 @@
+header {
+    background-color: rgb(0, 139, 151);
+}
+
+body {
+    background-color: rgb(0, 194, 205);
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+p {
+    background-color: rgb(0, 194, 205);
+    color:rgb(47, 72, 88);
+    margin: 0;
+    padding-left: 320px;
+    padding-right: 80px;
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+
+#greeble-head {
+    float: left;
+    width: 400px;
+    margin-left: -120px;
+    margin-right: 20px;
+    background-color: rgb(0, 139, 151);
+    padding: 20px;
+}
+
+#isabel {
+    float: right;
+    background-color: rgb(0, 139, 151);
+    width: 20%;
+    margin: 40px;
+    padding: 15px;
+    margin-top: 0;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(0, 251, 255);
+    font-size: 40px;
+    padding-bottom: 80px;
+    padding-top: 15px;
+    margin-bottom: 100px;
+    background-color: rgb(0, 139, 151);
+}
+
+h2, div {
+    color:rgb(47, 72, 88);
+}
+
+h2 {
+    background-color: rgb(0, 194, 205);
+    margin-left: 20px;
+}
+
+div {
+    background-color: rgb(0, 251, 255);
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+}
+
+.gridimg {
+    width: 300px;
+    display: block;
+}
+
+.plokimgs {
+    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.glipimgs {
+    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.plokimgs li {
+    list-style: none;
+    padding: 15px 5px 5px 5px;
+    background-color:rgb(0, 251, 255);
+}
+
+.glipimgs li {
+    list-style: none;
+    padding: 15px 5px 5px 5px;
+    background-color:rgb(0, 251, 255);
+}
+
+#plok, #glip {
+    background-color: rgb(0, 251, 255);
+    margin: 50px 0px;
+    padding: 0px 10%;
+}
+
+.creator h2 {
+    margin-left: 270px;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color:rgb(47, 72, 88);
+    background-color: rgb(0, 251, 255);
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+    font-weight: bold;
+}
+
+nav#main-nav ul li a:hover {
+    background-color:rgb(0, 194, 205);
+}
+
+nav#main-nav ul li a.selected {
+    background-color: rgb(47, 72, 88);
+    color:rgb(0, 251, 255);
+}
+
+@media (max-width: 1700px) {
+
+    .gridimg {
+        width: 200px;
+        display: block;
+    }
+    #plok, #glip {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .gridimg {
+        width: 400px;
+        display: block;
+    }
+    
+    .glipimgs {
+        width: 20%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+    }
+
+    .plokimgs {
+    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    }
+
+    p {
+        padding-left: 200px;
+    }
+    .creator h2 {
+        margin-left: 150px;
+    }
+    #plok, #glip {
+        padding-left: 15%;
+    }
+    div {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    p {
+        padding-left: 100px;
+    }
+    .creator h2 {
+        margin-left: 50px;
+    }
+    #isabel {
+        float: none;
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 540px) {
+    #greeble-head {
+        float: none;
+        padding-right: 100%;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    h1 {
+        margin-top: -20px;
+        padding-left: 10px;
+        padding-right: 100%;
+    }
+}
